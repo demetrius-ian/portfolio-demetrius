@@ -1,54 +1,111 @@
-# Portfólio — Demétrius Ian
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio de Demétrius Ian da Costa Santos</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #ffffff;
+      background: linear-gradient(135deg, #0d1b2a, #1b263b);
+      scroll-behavior: smooth;
+    }
 
-## Sobre mim
-Sou arquiteto e técnico em edificações, apaixonado por criar espaços funcionais, sustentáveis e com identidade. Acredito que a arquitetura vai além da estética — ela transforma vidas, conecta pessoas e melhora o bem-estar coletivo. Tenho experiência em projetos residenciais, comerciais e institucionais, com foco em conforto ambiental, eficiência energética e valorização da cultura local.
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: rgba(0, 0, 0, 0.2);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+    }
 
----
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
 
-## Formação
-- **Engenharia Civil** — Universidade Federal do Rio Grande do Norte (em andamento)
-- **Técnico em Edificações** — Instituto Federal do Rio Grande do Norte (2022)
-- **Arquitetura e Urbanismo** — Concluído (ano)
+    nav a:hover {
+      color: #00aaff;
+    }
 
----
+    section {
+      padding: 120px 10%;
+      text-align: center;
+    }
 
-## Experiências
-### Estágio — Certa Construções (2022)
-Atuação no setor administrativo e como fiscal de qualidade da obra. Responsável por:
-- Acompanhamento de obras
-- Elaboração de relatórios de qualidade
-- Apoio na elaboração de projetos em AutoCAD
-- Organização de planilhas de Excel e cronogramas de execução
+    #inicio h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
 
-### Fundador — **Dean** (Espaço gastronômico e escritório de arquitetura)
-Responsável por toda a concepção do espaço, unindo arquitetura, gastronomia e experiência sensorial. O local funciona como padaria e cafeteria de manhã, restaurante e doceria à tarde e balada à noite, mantendo um conceito arquitetônico dinâmico e acolhedor.
+    #inicio h3 {
+      font-weight: 400;
+      color: #00aaff;
+    }
 
----
+    .btn-container {
+      margin-top: 30px;
+    }
 
-## Projetos Selecionados
-### Residência Sustentável — Modelo para o Aquecimento Global
-Desenvolvimento de uma casa sustentável com foco em conforto térmico, captação de energia solar e aproveitamento de águas pluviais. O projeto prioriza materiais de baixo impacto ambiental e soluções arquitetônicas adaptadas às mudanças climáticas.
+    .btn {
+      padding: 12px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+      margin: 10px;
+    }
 
-### Projeto de Extensão — “O aumento de incêndios nas edificações e suas razões”
-Pesquisa sobre as causas do aumento de incêndios em fábricas, escolas e prédios comerciais, considerando falhas em sistemas elétricos e adaptações indevidas a equipamentos modernos. Projeto voltado à conscientização e prevenção de riscos em edificações.
+    .btn-azul {
+      background: #0077b6;
+      color: white;
+    }
 
-### Projeto Urbano — Requalificação da Orla de Natal
-Proposta de intervenção que integra paisagismo, áreas de lazer e mobilidade urbana sustentável, promovendo o convívio social e a valorização do patrimônio natural.
+    .btn-azul:hover {
+      background: #005f8a;
+    }
 
----
+    .btn-branco {
+      background: white;
+      color: #0077b6;
+    }
 
-## Habilidades
-- AutoCAD, SketchUp e Revit
-- Lumion e Photoshop
-- Excel e Project
-- Sustentabilidade em edificações
-- Planejamento e gestão de obras
-- Design de interiores
+    .btn-branco:hover {
+      background: #e0e0e0;
+      color: #005f8a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
----
-
-## Contato
-📍 Natal — RN  
-✉️ demetriusian@email.com  
-📞 (84) 9 9999-9999  
-🌐 @demetriusian | www.dean.com.br
+  <section id="inicio">
+    <h1>Demétrius Ian da Costa Santos</h1>
+    <h3>Técnico em Edificações | Acadêmico de Engenheiro Civil</h3>
+    <p>Construindo projetos com criatividade, técnica e propósito.</p>
+    <div class="btn-container">
+      <button class="btn btn-azul">Ver Projetos</button>
+      <button class="btn btn-branco">Contato</button>
+    </div>
+  </section>
+</body>
+</html>
